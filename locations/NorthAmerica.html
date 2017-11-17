@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" src="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <style>
+* {
+    font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+}
+a:hover{
+    color: azure;
+    text-decoration: none;
+}
+.headerLink {
+    text-decoration: none;
+    color: azure;
+} 
+.nav {
+    color: azure;
+    background: #333;
+    padding-left: 15px;
+    padding-top: 2px;
+}
+.searches {
+    padding: 0px;
+    display: flex;
+    align-items: flex-start;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+input[type=text] {
+    width: 130px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-image: url('searchicon.png');
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+input[type=text]:focus {
+    width: 100%;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+body {
+    background: gray;
+}
+footer {
+    color: azure;
+    background:#333;
+}
+    </style>
+    <title>Where To Go</title>
+</head>
+<div class="nav">
+    <a href="home.html" class="headerLink">
+        <header class="Travel-Go">
+            <h1>Travel&Go</h1>
+        </header>
+    </a>
+<header class="navbar">
+        <ul class="searches">
+            <li><a href="HighestRated.html">Highest Rated</a></li>
+            <li><a href="MostVisted.html">Most Visted</a></li>
+            <li><a href="Countries.html">Countries</a></li>
+        </ul>
+        <form>
+            <input type="text" name="search" placeholder="Search..">
+          </form>
+          
+</header>
+</div>
+
+<body>
+</body>
+<footer>
+    Final-project by Collin Ashbaugh
+</footer>
+</html>

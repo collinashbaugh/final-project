@@ -9,6 +9,14 @@
 * {
     font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
 }
+a:hover{
+    color: azure;
+    text-decoration: none;
+}
+.headerLink {
+    text-decoration: none;
+    color: azure;
+} 
 .nav {
     color: azure;
     background: #333;
@@ -68,14 +76,16 @@ footer {
     <title>Where To Go</title>
 </head>
 <div class="nav">
-<header class="Travel-Go">
-    <h1>Travel&Go</h1>
-</header>
+    <a href="home.html" class="headerLink">
+        <header class="Travel-Go">
+            <h1>Travel&Go</h1>
+        </header>
+    </a>
 <header class="navbar">
         <ul class="searches">
             <li><a href="HighestRated.html">Highest Rated</a></li>
-            <li><a href="#">Most Visted</a></li>
-            <li><a href="#">Countries</a></li>
+            <li><a href="MostVisted.html">Most Visted</a></li>
+            <li><a href="Countries.html">Countries</a></li>
         </ul>
         <form>
             <input type="text" name="search" placeholder="Search..">
@@ -91,23 +101,69 @@ footer {
           <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
           <li data-target="#myCarousel" data-slide-to="1"></li>
           <li data-target="#myCarousel" data-slide-to="2"></li>
+          <li data-target="#myCarousel" data-slide-to="3"></li>
+          <li data-target="#myCarousel" data-slide-to="4"></li>
+          <li data-target="#myCarousel" data-slide-to="5"></li>
+          <li data-target="#myCarousel" data-slide-to="6"></li>
+          <li data-target="#myCarousel" data-slide-to="7"></li>
+          <li data-target="#myCarousel" data-slide-to="8"></li>
         </ol>
     
         <!-- Wrapper for slides -->
         <div class="carousel-inner">
           <div class="item active">
-            <a href="../locations/Asia.html">
-            <img src="../locations/PicsOfLocations/Las-Vegas.jpg" alt="North America" height="3820px" width="2160px">
+            <a href="../locations/NorthAmerica.html">
+                <img src="../locations/PicsOfLocations/Las-Vegas.jpg" alt="North America" height="3820px" width="2160px">
             </a>
         </div>
     
           <div class="item">
-            <img src="..\locations\PicsOfLocations\Thailand.jpg" alt="Asia" height="3820px" width="2160px">
-          </div>
+            <a href="../locations/Asia.html">
+                <img src="..\locations\PicsOfLocations\Thailand.jpg" alt="Asia" height="3820px" width="2160px">
+            </a>
+        </div>
         
           <div class="item">
-            <img src="http://www.slh.com/globalassets/country-pages/hero-images/greece2.jpg" alt="Europe" height="3820px" width="2160px">
+            <a href="../locations/Europe.html">
+                <img src="..\locations\PicsOfLocations\Paris.jpg" alt="Europe" height="3820px" width="2160px">
+            </a>
           </div>
+
+            <div class="item">
+                    <a href="../locations/SouthAmerica.html">
+                        <img src="..\locations\PicsOfLocations\Brazil.jpg" alt="South America" height="3820px" width="2160px">
+                    </a>
+            </div>
+
+            <div class="item">
+                    <a href="../locations/CentralAmerica.html">
+                        <img src="..\locations\PicsOfLocations\Tikal.jpg" alt="Central America" height="3820px" width="2160px">
+                    </a>
+            </div>
+
+            <div class="item">
+                    <a href="../locations/Australia.html">
+                        <img src="..\locations\PicsOfLocations\Sydney.jpg" alt="Australia" height="3820px" width="2160px">
+                    </a>
+            </div>
+
+            <div class="item">
+                    <a href="../locations/MiddleEast.html">
+                        <img src="..\locations\PicsOfLocations\Petra.jpg" alt="Middle East" height="3820px" width="2160px">
+                    </a>
+            </div>
+
+            <div class="item">
+                    <a href="../locations/Africa.html">
+                        <img src="..\locations\PicsOfLocations\Cairo.jpg" alt="Africa" height="3820px" width="2160px">
+                    </a>
+            </div>
+
+            <div class="item">
+                    <a href="../locations/Islands.html">
+                        <img src="..\locations\PicsOfLocations\Hawaii.jpg" alt="Islands" height="3820px" width="2160px">
+                    </a>
+            </div>
         </div>
     
         <!-- Left and right controls -->
